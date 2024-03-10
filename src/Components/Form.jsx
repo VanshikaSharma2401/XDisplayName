@@ -37,7 +37,7 @@ function Form() {
           />
         </label>
         <br />
-        <button type="submit" disabled={firstName.trim() === "" || lastName.trim() === ""}>
+        <button type="submit">
           Submit
         </button>
       </form>
